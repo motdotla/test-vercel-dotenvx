@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 export default function Page() {
-  return <h1>Hello, Next.js!</h1>;
+  return <h1>Hello, {process.env.HELLO}</h1>;
 }
